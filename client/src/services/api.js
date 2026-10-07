@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'http://realtime-chat-aiven.onrender.com/api';
 
 export async function fetchUsers() {
   const res = await fetch(`${API_BASE}/users`);
