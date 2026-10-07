@@ -1,0 +1,65 @@
+:root {
+  /* Surfaces & Backgrounds */
+  --bg-app: #090d16;             /* Canvas background */
+  --bg-sidebar: #0f172a;         /* Sidebar / channel list */
+  --bg-chat: #0b1120;            /* Main message stream canvas */
+  --bg-card: #131d35;            /* Elevated card surface */
+  --bg-card-hover: #1e293b;      /* Hover state for conversation items */
+  --bg-card-active: #23324f;     /* Selected conversation */
+
+  /* Borders & Dividers */
+  --border-subtle: #1e293b;      /* Panel separators */
+  --border-strong: #334155;      /* Focus rings, input borders */
+  --border-highlight: #475569;   /* Hover borders */
+
+  /* Typography / Foreground */
+  --text-primary: #f8fafc;       /* 98% white for headings, active messages */
+  --text-secondary: #94a3b8;     /* Muted secondary labels, timestamps */
+  --text-muted: #64748b;         /* Placeholders, disabled states */
+  --text-inverse: #ffffff;       /* Text on primary accent buttons */
+
+  /* Primary Brand Accent (Cobalt / Azure) */
+  --accent-primary: #2563eb;     /* Outgoing message bubble, primary CTA */
+  --accent-primary-hover: #1d4ed8;
+  --accent-primary-subtle: rgba(37, 99, 235, 0.15);
+
+  /* Status Tokens */
+  --status-online: #10b981;      /* Emerald 500: Active connection / online dot */
+  --status-online-glow: rgba(16, 185, 129, 0.35);
+  --status-offline: #64748b;     /* Slate 500: Offline dot */
+  --status-connecting: #f59e0b;  /* Amber 500: Reconnecting banner */
+  --status-danger: #ef4444;      /* Red 500: Error alert */
+
+  /* Message Bubbles */
+  --bubble-sender-bg: #2563eb;          /* Outgoing bubble (Sender) */
+  --bubble-sender-text: #ffffff;
+  --bubble-receiver-bg: #1e293b;        /* Incoming bubble (Receiver) */
+  --bubble-receiver-text: #f1f5f9;
+  --bubble-receiver-border: #334155;
+
+  /* Input Composer */
+  --input-bg: #0f172a;
+  --input-border: #334155;
+  --input-border-focus: #3b82f6;
+
+  /* Badges & Indicators */
+  --badge-unread-bg: #2563eb;
+  --badge-unread-text: #ffffff;
+
+  /* Sizing & Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 1px 2px rgba(2, 6, 23, 0.4);
+  --shadow-md: 0 4px 12px rgba(2, 6, 23, 0.5);
+  --shadow-bubble: 0 2px 4px rgba(2, 6, 23, 0.25);
+  --shadow-dropdown: 0 8px 24px rgba(2, 6, 23, 0.7);
+
+  /* Fonts */
+  --font-main: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
